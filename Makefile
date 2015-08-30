@@ -18,6 +18,7 @@ static-dist: clean
 
 dist: static-dist
 	${NODE_MODULES_BIN}/jspm bundle index dist/index.js --minify
+	${NODE_MODULES_BIN}/http-server dist -o
 
 sfx-dist:
 	${NODE_MODULES_BIN}/jspm bundle-sfx index dist/index-sfx.js --minify

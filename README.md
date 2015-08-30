@@ -6,7 +6,7 @@
 
 `make setup`
 
-## Start server
+## Start dev server
 
 `make`
 
