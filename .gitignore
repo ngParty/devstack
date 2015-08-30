@@ -11,8 +11,11 @@ node_modules
 # JSPM
 app/jspm_packages/*
 
-# Distribution files
-dist
+# Keep distribution files small
+dist/jspm_packages
+!jspm_packages/system.js
+!dist/**/*.js
+!dist/**/*.map
 
 # TSD
 typings/*

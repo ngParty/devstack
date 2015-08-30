@@ -12,12 +12,17 @@ serve:
 	${NODE_MODULES_BIN}/tsc
 	${NODE_MODULES_BIN}/broccoli serve
 
-dist: clean
+static-dist: clean
 	${NODE_MODULES_BIN}/tsc
 	${NODE_MODULES_BIN}/broccoli build dist
-	${NODE_MODULES_BIN}/jspm bundle-sfx index dist/index.js --minify
+
+dist: static-dist
+	${NODE_MODULES_BIN}/jspm bundle index dist/index.js --minify
+
+sfx-dist:
+	${NODE_MODULES_BIN}/jspm bundle-sfx index dist/index-sfx.js --minify
 
 clean:
 	- ${NODE_MODULES_BIN}/rimraf dist
 
-.PHONY: all setup serve dist clean
+.PHONY: all setup serve static-dist dist sfx-dist clean
