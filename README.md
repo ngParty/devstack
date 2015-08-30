@@ -8,7 +8,7 @@
 
 ## Start dev server
 
-`make`
+`make` then open http://localhost:4200
 
 ## Build production app
 
