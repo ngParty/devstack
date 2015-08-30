@@ -4,6 +4,7 @@ node_modules
 
 # Javascript generated from Typescript
 app/**/*.js
+!app/config.js
 
 # All map files
 app/**/*.map
