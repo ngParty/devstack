@@ -1,0 +1,23 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli": "0.16.5",
+    "broccoli-cli": "1.0.0",
+    "jspm": "0.16.2",
+    "rimraf": "2.4.2",
+    "typescript": "^1.7.0-dev.20150830"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+  }
+}
