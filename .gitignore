@@ -3,10 +3,10 @@
 node_modules
 
 # Javascript generated from Typescript
-**/*.js
+app/**/*.js
 
 # All map files
-**/*.map
+app/**/*.map
 
 # JSPM
 app/jspm_packages/*
@@ -14,8 +14,6 @@ app/jspm_packages/*
 # Keep distribution files small
 dist/jspm_packages
 !jspm_packages/system.js
-!dist/**/*.js
-!dist/**/*.map
 
 # TSD
 typings/*
