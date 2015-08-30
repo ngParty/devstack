@@ -13,3 +13,6 @@ app/jspm_packages/*
 
 # Distribution files
 dist
+
+# TSD
+typings/*

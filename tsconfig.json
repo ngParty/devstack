@@ -2,9 +2,11 @@
 	"compilerOptions": {
 		"module": "system",
 		"target": "ES5",
-		"sourceMap": true
+		"sourceMap": true,
+		"experimentalDecorators": true
 	},
 	"exclude": [
-		"node_modules"
+		"node_modules",
+		"app/jspm_packages"
 	]
 }

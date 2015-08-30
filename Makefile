@@ -6,6 +6,7 @@ setup:
 	npm install
 	- mkdir app/jspm_packages
 	${NODE_MODULES_BIN}/jspm install
+	${NODE_MODULES_BIN}/tsd reinstall -r -o
 
 serve:
 	${NODE_MODULES_BIN}/tsc
