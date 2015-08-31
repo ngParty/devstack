@@ -12,6 +12,8 @@ Unminified files: 1.1MB
 * Agular2: 795KB
 * rx.js: 285KB
 
+See detailed localhost.har file in repo with https://toolbox.googleapps.com/apps/har_analyzer/ for more info.
+
 ## Setup
 
 `make setup`
